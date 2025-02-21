@@ -4,12 +4,12 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Portfolio Details - DevFolio Bootstrap Template</title>
+  <title>Aplicación web para centro médico</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/icon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
@@ -44,33 +44,24 @@
       <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">DevFolio</h1>
+        <h1 class="sitename">Daisy Llivisaca</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero">Home<br></a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li><a href="index.html#hero" class="active">Inicio<br></a></li>
+          <li class="dropdown"><a href="#"><span>Sobre mí</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
+              <li><a href="index.html#about">Biografía</a></li>
+              <li><a href="index.html#informatica">Informática</a></li>
+              <li><a href="index.html#programacion">Programación</a></li>
+              <li><a href="index.html#professional-experience">Experiencia laboral y aprendizajes</a></li>
+              <li><a href="index.html#education">Educación y logros</a></li>
+              <li><a href="index.html#cursos">Cursos y capacitaciones</a></li>
             </ul>
           </li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="index.html#proyectos">Proyectos</a></li>
+          <li><a href="index.html#contact">Contacto</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -83,11 +74,11 @@
     <!-- Page Title -->
     <div class="page-title" data-aos="fade">
       <div class="container d-lg-flex justify-content-between align-items-center">
-        <h1 class="mb-2 mb-lg-0">Portfolio Details</h1>
+        <h1 class="mb-2 mb-lg-0">Aplicación web para centro médico</h1>
         <nav class="breadcrumbs">
           <ol>
-            <li><a href="index.html">Home</a></li>
-            <li class="current">Portfolio Details</li>
+            <li><a href="index.html">Inicio</a></li>
+            <li class="current">Aplicación web para centro médico</li>
           </ol>
         </nav>
       </div>
@@ -104,7 +95,7 @@
               "loop": true,
               "speed": 600,
               "autoplay": {
-                "delay": 5000
+                "delay": 8000
               },
               "slidesPerView": "auto",
               "navigation": {
@@ -121,19 +112,19 @@
           <div class="swiper-wrapper align-items-center">
 
             <div class="swiper-slide">
-              <img src="assets/img/portfolio/app-1.jpg" alt="">
+              <img src="assets/img/proyectos/p1.png" alt="">
             </div>
 
             <div class="swiper-slide">
-              <img src="assets/img/portfolio/product-1.jpg" alt="">
+              <img src="assets/img/proyectos/p1.1.png" alt="">
             </div>
 
             <div class="swiper-slide">
-              <img src="assets/img/portfolio/branding-1.jpg" alt="">
+              <img src="assets/img/proyectos/p1.2.png" alt="">
             </div>
 
             <div class="swiper-slide">
-              <img src="assets/img/portfolio/books-1.jpg" alt="">
+              <img src="assets/img/proyectos/p1.3.png" alt="">
             </div>
 
           </div>
@@ -146,11 +137,16 @@
 
           <div class="col-lg-8" data-aos="fade-up">
             <div class="portfolio-description">
-              <h2>This is an example of portfolio details</h2>
+              <h2>Descripción</h2>
               <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+                Este es un sistema web desarrollado para el Centro Médico FamySALUD con el objetivo de optimizar la gestión de citas, mejorar la toma de decisiones administrativas y fortalecer la comunicación con los pacientes. Cuenta con tres módulos principales:
               </p>
-              <p>
+              <ul>
+                <li>Agendamiento de citas: Permite a los usuarios reservar consultas de forma fácil y rápida.</li>
+                <li>Dashboard administrativo: Proporciona estadísticas clave para la gestión eficiente.</li>
+                <li>Comunicación post-consulta: Ofrece encuestas de satisfacción y recordatorios de citas.</li>
+              </ul>
+              <!-- <p>
                 Amet consequatur qui dolore veniam voluptatem voluptatem sit. Non aspernatur atque natus ut cum nam et. Praesentium error dolores rerum minus sequi quia veritatis eum. Eos et doloribus doloremque nesciunt molestiae laboriosam.
               </p>
 
@@ -173,20 +169,36 @@
 
               <p>
                 Sunt voluptatum sapiente facilis quo odio aut ipsum repellat debitis. Molestiae et autem libero. Explicabo et quod necessitatibus similique quis dolor eum. Numquam eaque praesentium rem et qui nesciunt.
-              </p>
+              </p> -->
 
             </div>
           </div>
 
           <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
             <div class="portfolio-info">
-              <h3>Project information</h3>
+              <h3>Tecnologías usadas</h3>
               <ul>
-                <li><strong>Category</strong> Web design</li>
+                <li>PHP</li>
+                <li>JavaScript</li>
+                <li>AJAX</li>
+                <li>HTML5, CSS3</li>
+                <li>MySQL</li>
+                <li>Chart.js</li>
+                <li>Twilio</li>
+                <li>XAMPP</li>
+                <!-- <li><strong>Category</strong> Web design</li>
                 <li><strong>Client</strong> ASU Company</li>
                 <li><strong>Project date</strong> 01 March, 2020</li>
-                <li><strong>Project URL</strong> <a href="#">www.example.com</a></li>
-                <li><a href="#" class="btn-visit align-self-start">Visit Website</a></li>
+                <li><strong>Project URL</strong> <a href="#">www.example.com</a></li> -->
+                <!-- <li><a href="https://www.canva.com/design/DAGcftoc0co/aSicXcT-hbqhyLk9tLWNQw/edit?utm_content=DAGcftoc0co&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" class="btn-visit align-self-start">Más detalles</a></li> -->
+                <li>
+                  <a href="https://www.canva.com/design/DAGcftoc0co/aSicXcT-hbqhyLk9tLWNQw/edit?utm_content=DAGcftoc0co&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" 
+                     class="btn-visit align-self-start" 
+                     target="_blank" 
+                     rel="noopener noreferrer">
+                    Más detalles
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
@@ -203,20 +215,10 @@
 
     <div class="container">
       <div class="copyright text-center ">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">DevFolio</strong> <span>All Rights Reserved</span></p>
+        <p>© 2025 <span>Daisy Llivisaca</span> <strong class="px-1 sitename">Portafolio</strong> <span>Todos los derechos reservados</span></p>
       </div>
       <div class="social-links d-flex justify-content-center">
-        <a href=""><i class="bi bi-twitter-x"></i></a>
-        <a href=""><i class="bi bi-facebook"></i></a>
-        <a href=""><i class="bi bi-instagram"></i></a>
-        <a href=""><i class="bi bi-linkedin"></i></a>
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        <a href="https://www.linkedin.com/in/daisyllivisaca"><i class="bi bi-linkedin"></i></a>
       </div>
     </div>
 
